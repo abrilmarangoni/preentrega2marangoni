@@ -185,6 +185,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 1rem;
+  padding: 1rem;
 }
 
 @media (min-width: 1324px) {
@@ -197,6 +199,11 @@ body {
     width: 0px;
     height: 0px;
     clear: both;
+  }
+  .ubica__tion {
+    width: 700px;
+    height: 600px;
+    padding: 2rem;
   }
 }
 
@@ -211,6 +218,11 @@ body {
   .imagen__edi12 {
     width: 530px;
     height: 250px;
+  }
+  .ubica__tion {
+    width: 600px;
+    height: 500px;
+    padding: 2rem;
   }
 }
 
@@ -227,5 +239,10 @@ body {
     display: grid;
     grid-template-columns: auto;
     height: 800px;
+  }
+  .ubica__tion {
+    width: 300px;
+    height: 250px;
+    padding: 2rem;
   }
 }
