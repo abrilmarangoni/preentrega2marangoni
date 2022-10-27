@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!--link de font awesom -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header class="conteiner__1">
+      <nav class="logo__palcos">
+        <a href="Index.html">
+          <img
+            src="imagenpalcos/LOGAZ02.jpg"
+            alt=""
+            height="150px"
+            width="170px"
+          />
+        </a>
+      </nav>
+      <nav>
+        <ul class="nav__list">
+          <li class="nav__link"><a href="Index.html">inicio</a></li>
+          <li class="nav__link"><a href="imagenes.html">imagenes</a></li>
+          <li class="nav__link"><a href="ubicacion.html">ubicacion</a></li>
+          <li class="nav__link"><a href="nosotros.html">nosotros</a></li>
+          <li class="nav__link"><a href="contacto.html">contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <h1 class="letra__titulo">CONTACTO</h1>
+
+    <form action="contacto.html" class="formu_conteiner">
+      <fieldset class="formu__lario">
+        <legend>contacto</legend>
+        <br />
+        <label for="nombre">nombre</label>
+        <input type="text" name="nombre" id="nombre" />
+        <br />
+        <label for="apellido">apellido</label>
+        <input type="text" name="apellido" id="apellido" />
+        <br />
+        <label for="E-mail">E-mail</label>
+        <input type="email" name="email" id="e-mail" />
+        <br />
+        <div>Hombre</div>
+        <input type="radio" name="sexo" id="sexo" value="hombre" />
+        <div>Mujer</div>
+        <input type="radio" name="sexo" id="sexo" value="mujer" />
+        <br />
+        <select name="informacion" id="informacion">
+          <option value="disponibilidad">disponibilidad</option>
+          <option value="informacion">informacion</option>
+        </select>
+
+        <label for="mensaje">mensaje</label>
+        <br />
+        <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+        <br />
+        <div>Terminos y condiciones</div>
+        <input type="checkbox" name="aceptar" id="aceptar" />
+        <br />
+        <input type="submit" value="enviar" />
+        <input type="reset" value="borrar" />
+      </fieldset>
+    </form>
+    <footer class="logo__igwh">
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-whatsapp"></i>
+      <i class="fa-solid fa-phone"></i>
+    </footer>
+  </body>
+</html>
