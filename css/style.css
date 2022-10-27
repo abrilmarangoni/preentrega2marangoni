@@ -15,6 +15,7 @@
 }
 .card__row {
   display: grid;
+
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 20px;
 }
@@ -39,7 +40,7 @@
   display: inline-block;
   justify-content: space-around;
 }
-.container-fluid {
+.navbar-collapse {
   display: flex;
   justify-content: right;
   float: right;
