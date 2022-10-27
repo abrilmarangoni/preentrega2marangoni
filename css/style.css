@@ -198,6 +198,9 @@ body {
   margin: 1rem;
   padding: 1rem;
 }
+.co__lor {
+  color: #ffffff;
+}
 
 @media (min-width: 1324px) {
   .imagen__edi {
