@@ -39,7 +39,11 @@
   display: inline-block;
   justify-content: space-around;
 }
-
+.container-fluid {
+  display: flex;
+  justify-content: right;
+  float: right;
+}
 .google-maps {
   margin: 1rem;
   max-width: 500px;
@@ -50,15 +54,20 @@
 
 .conteiner__1 {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: space-around;
   background-color: #997d7d;
   margin: 2rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .logo__palcos {
   width: 150px;
   height: 150px;
+  margin: 1rem;
+  padding: 1rem;
 }
 
 .nav__list {
