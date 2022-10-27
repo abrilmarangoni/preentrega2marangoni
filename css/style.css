@@ -201,6 +201,11 @@ body {
 .co__lor {
   color: #ffffff;
 }
+.tarjetas:hover {
+  box-shadow: 5px 5px -20px rgba(0, 0, 0, 0.5);
+  transform: translateY(-3%);
+  background-color: rgb(188, 186, 186);
+}
 
 @media (min-width: 1324px) {
   .imagen__edi {
