@@ -183,18 +183,3 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }
-
-/*MEDIA QUERIES*/
-
-@media (min-width: 768px) {
-  .nav__list {
-    margin: 55px;
-    display: flex;
-    list-style-type: none;
-  }
-  .nav__link {
-    margin-left: 20px;
-    font-size: 20px;
-    height: 30px;
-  }
-}
